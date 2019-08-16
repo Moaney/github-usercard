@@ -55,3 +55,43 @@ const followersArray = [];
   luishrd
   bigknell
 */
+
+const cardCreator = followersArray => {
+
+  const cardClass = document.createElement("div");
+  cardClass.classList.add("card");
+
+  const img = document.createElement("img");
+  // img.src = text;
+
+  const cardInfo = document.createElement("div");
+  cardInfo.classList.add("card-info");
+
+  const h3 = document.querySelector("h3");
+  h3.classList.add("name");
+  // h3.textContent = text;
+
+  const p1 = document.querySelector("p");
+  p1.classList.add("username");
+  // p1.textContent = text;
+
+  const p2 = document.createElement("p");
+  // p2.textContent = text;
+
+  const p3 = document.createElement("p");
+  // p3.textContent = text;
+
+  const p4 = document.createElement("p");
+  // p4.textContent = text;
+
+  const p5 = document.querySelector("p");
+  // p5.textContent = text;
+
+  const p6 = document.querySelector("p");
+  // p6.textContent = text;
+
+  return div;
+}
+
+
+  document.querySelector(".cards").appendChild(cardCreator(followersArray));
